@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: ls
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: pinzhen
+language: zh-CN
 timezone: ''
 
 # URL
@@ -103,4 +103,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/prillc/prillc.github.io
+  branch: deploy
+  name: prillc
+  email: 549471729@qq.com
